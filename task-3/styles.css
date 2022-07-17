@@ -1,0 +1,13 @@
+ul.gallery{
+    display: flex;
+justify-content: space-between ;
+}
+
+
+img {
+
+    width: 30%;
+border: 5px solid #a0b5f6;
+    border-radius: 3px;
+}
+
