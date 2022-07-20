@@ -20,14 +20,15 @@ const onCreateDiv = (evt) => {
         div.style.backgroundColor = getRandomHexColor();
         widthValue += 10;
         divs.push(div);
-        console.log(div);
+
     }
     divBoxes.append(...divs);
 }
 btnCreate.addEventListener('click', onCreateDiv);
 
-const destroyBoxes = () => {
-    console.log(456)
+const destroyBoxes = (event) => {
+
     divBoxes.innerHTML = '';
+   // event.currentTarget.reset();----------------??????????
 }
 btnDestroy.addEventListener('click', destroyBoxes);

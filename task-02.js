@@ -14,4 +14,3 @@ const tegEl = ingredients.map(ingredient => {
     return itemEl
 });
 ingredientsEl.append(...tegEl);
-console.log(ingredientsEl)

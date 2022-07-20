@@ -19,4 +19,3 @@ const imagesEl = images.map(image => {
 });
 const templateString = imagesEl.join('')
 galleryEl.insertAdjacentHTML('beforeend', templateString );
-console.log(templateString)
